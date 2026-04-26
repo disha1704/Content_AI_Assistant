@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Context Audio Assistant",
+  "version": "1.0",
+  "description": "Free AI reading assistant with voice",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
