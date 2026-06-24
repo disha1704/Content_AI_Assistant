@@ -1,0 +1,1 @@
+Developed an intelligent Q&A assistant capable of ingesting multi-format inputs like -PDFs, web URLs, and raw text and answering contextual queries using Retrieval-Augmented Generation (RAG). Built end-to-end document parsing, chunking, and vector embedding pipelines to enable accurate, source-grounded responses across diverse knowledge bases.
